@@ -1,0 +1,23 @@
+[
+    {
+        "name": "John Doe",
+        "designation": "Software Engineer",
+        "department": "Development",
+        "salary": 60000,
+        "image": "./images/abc.webp"
+    },
+    {
+        "name": "Jane Smith",
+        "designation": "Project Manager",
+        "department": "Management",
+        "salary": 85000,
+      "image": "./images/abc.webp"
+    },
+    {
+        "name": "Alice Johnson",
+        "designation": "UI/UX Designer",
+        "department": "Design",
+        "salary": 50000,
+        "image": "./images/abc.webp"
+    }
+]

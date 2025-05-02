@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+table{
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    border: 10px solid black;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }

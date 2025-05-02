@@ -1,0 +1,102 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+  
+  header p {
+    font-size: 1rem;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff6347;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  /* Sections */
+  .chef-message {
+    background-color: #fff2ec;
+    border-left: 4px solid #ff6347;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  /* Lists */
+  ol, ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #fff;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #ffe3db;
+    color: #333;
+  }
+  
+  img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  

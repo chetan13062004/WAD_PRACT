@@ -1,0 +1,38 @@
+img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid red;
+    border-radius: 50%; /* or use 50% for circular image */
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+table{
+    margin: 50px;
+    width: 100%;
+    height: auto;
+}
+th,td{
+    border: 2px;
+    border-radius: 2px solid black;
+
+}
+thead{
+    background-color: aqua;
+}

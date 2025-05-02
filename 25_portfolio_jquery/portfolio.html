@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Mobile Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery & jQuery Mobile -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+  <div data-role="header">
+    <h1>My Portfolio</h1>
+  </div>
+
+  <div role="main" class="ui-content">
+    <p>Welcome to my personal mobile portfolio site!</p>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#about" data-icon="user">About Me</a></li>
+        <li><a href="#projects" data-icon="grid">Projects</a></li>
+        <li><a href="#skills" data-icon="star">Skills</a></li>
+        <li><a href="#contact" data-icon="mail">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- About Me Page -->
+<div data-role="page" id="about">
+  <div data-role="header">
+    <a href="#home" data-icon="home">Home</a>
+    <h1>About Me</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <p>Hi! I'm a student at PICT with a passion for building intelligent apps, data-driven systems, and fun projects using AI and web technologies.</p>
+  </div>
+</div>
+
+<!-- Projects Page -->
+<div data-role="page" id="projects">
+  <div data-role="header">
+    <a href="#home" data-icon="home">Home</a>
+    <h1>Projects</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true">
+      <li>
+        <h2>AI-Powered CIBIL Score</h2>
+        <p>Machine learning model to predict credit scores and classify loan risks.</p>
+      </li>
+      <li>
+        <h2>Term Sheet Validator</h2>
+        <p>Automates term sheet extraction and validation using LLMs.</p>
+      </li>
+      <li>
+        <h2>Student Dashboard</h2>
+        <p>Real-time dashboard using Flask for academic and financial tracking.</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Skills Page -->
+<div data-role="page" id="skills">
+  <div data-role="header">
+    <a href="#home" data-icon="home">Home</a>
+    <h1>Skills</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true">
+      <li>Python, Flask, Streamlit</li>
+      <li>Angular, JavaScript</li>
+      <li>SQL, MongoDB, Firebase</li>
+      <li>Azure Data Factory, Databricks</li>
+      <li>Machine Learning, NLP, Generative AI</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Contact Page -->
+<div data-role="page" id="contact">
+  <div data-role="header">
+    <a href="#home" data-icon="home">Home</a>
+    <h1>Contact Info</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <p><strong>Email:</strong> you@example.com</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
+    <p><strong>GitHub:</strong> github.com/yourusername</p>
+  </div>
+</div>
+
+</body>
+</html>

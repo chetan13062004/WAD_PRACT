@@ -1,0 +1,17 @@
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+h2{
+    text-align: center;
+}
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    padding: 20px;
+}

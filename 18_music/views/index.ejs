@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Database</title>
+  <style>
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h1>All Songs (Total: <%= count %>)</h1>
+  <table>
+    <tr>
+      <th>Song</th><th>Film</th><th>Director</th><th>Singer</th><th>Actor</th><th>Actress</th>
+    </tr>
+    <% songs.forEach(song => { %>
+      <tr>
+        <td><%= song.Songname %></td>
+        <td><%= song.Film %></td>
+        <td><%= song.Music_director %></td>
+        <td><%= song.singer %></td>
+        <td><%= song.Actor || "-" %></td>
+        <td><%= song.Actress || "-" %></td>
+      </tr>
+    <% }); %>
+  </table>
+
+  <h2>Add a New Song</h2>
+  <form method="POST" action="/add">
+    <input name="Songname" placeholder="Songname" required>
+    <input name="Film" placeholder="Film" required>
+    <input name="Music_director" placeholder="Director" required>
+    <input name="singer" placeholder="Singer" required>
+    <button type="submit">Add</button>
+  </form>
+</body>
+</html>
